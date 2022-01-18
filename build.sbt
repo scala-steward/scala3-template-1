@@ -1,16 +1,16 @@
-val Scala3Version = "3.0.2"
-val CatsEffectVersion = "3.2.3"
-val CatsVersion = "2.6.1"
+val Scala3Version = "3.1.0"
+val CatsEffectVersion = "3.3.4"
+val CatsVersion = "2.7.0"
 val CirceVersion = "0.14.1"
-val Fs2Version = "3.1.1"
-val Http4sVersion = "1.0.0-M24"
-val DoobieVersion = "1.0.0-M5"
-val PureConfigVersion = "0.16.0"
+val Fs2Version = "3.2.4"
+val Http4sVersion = "0.23.7"
+val DoobieVersion = "1.0.0-RC1"
+val PureConfigVersion = "0.17.1"
 val Log4CatsVersion = "2.1.1"
 val LogBackVersion = "1.2.3"
-val MunitVersion = "0.7.28"
-val MunitCatsEffectVersion = "1.0.3"
-val ScalaCheckEffectVersion = "1.0.2"
+val MunitVersion = "0.7.29"
+val MunitCatsEffectVersion = "1.0.7"
+val ScalaCheckEffectVersion = "1.0.3"
 val TestContainersScalaVersion = "0.39.5"
 val FlywayVersion = "7.10.0"
 
@@ -29,7 +29,7 @@ lazy val root = project
     Docker / packageName := "scala3-template",
     dockerUpdateLatest := true,
     dockerUsername := Some("peterstormio"),
-    dockerBaseImage := "openjdk:8-jdk-alpine",
+    dockerBaseImage := "adoptopenjdk/openjdk11:alpine-jre",
     makeBatScripts := Seq(),
 
     libraryDependencies ++= Seq(
