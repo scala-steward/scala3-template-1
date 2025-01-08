@@ -9,7 +9,7 @@ val PureConfigVersion = "0.17.6"
 val Log4CatsVersion = "2.6.0"
 val LogBackVersion = "1.5.3"
 val MunitVersion = "1.0.4"
-val MunitCatsEffectVersion = "1.0.7"
+val MunitCatsEffectVersion = "2.0.0"
 val ScalaCheckEffectVersion = "1.0.4"
 val TestContainersScalaVersion = "0.41.3"
 val FlywayVersion = "7.10.0"
@@ -53,7 +53,7 @@ lazy val root = project
       "com.github.pureconfig" %% "pureconfig-core" % PureConfigVersion,
       "org.flywaydb" % "flyway-core" % FlywayVersion,
       "org.scalameta" %% "munit" % MunitVersion % Test,
-      "org.typelevel" %% "munit-cats-effect-3" % MunitCatsEffectVersion % Test,
+      "org.typelevel" %% "munit-cats-effect" % MunitCatsEffectVersion % Test,
       "com.dimafeng" %% "testcontainers-scala-munit" % TestContainersScalaVersion % Test,
       "com.dimafeng" %% "testcontainers-scala-oracle-xe" % TestContainersScalaVersion % Test,
       "org.typelevel" %% "scalacheck-effect-munit" % ScalaCheckEffectVersion,
