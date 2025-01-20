@@ -11,7 +11,7 @@ val LogBackVersion = "1.5.3"
 val MunitVersion = "1.0.4"
 val MunitCatsEffectVersion = "1.0.7"
 val ScalaCheckEffectVersion = "1.0.4"
-val TestContainersScalaVersion = "0.41.3"
+val TestContainersScalaVersion = "0.41.8"
 val FlywayVersion = "7.10.0"
 
 lazy val root = project
