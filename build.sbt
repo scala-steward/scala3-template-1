@@ -10,7 +10,7 @@ val Log4CatsVersion = "2.7.1"
 val LogBackVersion = "1.5.17"
 val MunitVersion = "1.0.4"
 val MunitCatsEffectVersion = "1.0.7"
-val ScalaCheckEffectVersion = "1.0.4"
+val ScalaCheckEffectVersion = "2.1.0"
 val TestContainersScalaVersion = "0.41.3"
 val FlywayVersion = "7.10.0"
 
